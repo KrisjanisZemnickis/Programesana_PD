@@ -1,8 +1,15 @@
 .button{
+    text-decoration: none;
     width: 100px;
     height:30px;
     position: relative;
-    left: 900px;
+    left: 850px;
+    font-size: 30px;
+    border: 2px solid black;
+    color:rgb(255, 255, 255);
+    background-color: grey;
+    text-align: center;
+    margin-left:20px ;
 }
 .Logo_bilde{
     width: 300px;
@@ -40,14 +47,17 @@ nav{
 }
 .apraksts{
     position: absolute;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     top: 300px;
     font-size: 60px;
 }
 .button1{
+    text-decoration: none;
     position: absolute;
     top: 700px;
-    font-size: 30px;
+    font-size: 50px;
+    background-color: beige;
+    color: black;
 
 }
 main{
@@ -109,13 +119,35 @@ main{
     background-color: grey;
     align-self: center;
 }
-.pirma_bilde{
-    width: 100px;
-    height: 150px;
-}
-.bildes_line1{
+
+.discount-items, .new-arrivals{
     display:flex;
     justify-content: space-evenly;
     
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:-50px;
+    margin-top:0;
+}
+.pirma_bilde{
+    width: 100px;
+    height: 150px;
+    margin-bottom: 0;
+}
+.cena{
+    display: flex;
+    justify-content: space-evenly;
+    gap:80px
+}
+
+.old_price{
+    text-decoration: line-through;
+}
+.items > p{
+    font-size:25px;
+    margin-top:0;
 }
 
