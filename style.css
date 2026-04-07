@@ -58,6 +58,7 @@ main{
     display: flex;
     justify-self: center;
     width: 1500px;
+    flex-direction: column;
     
 }
 .main2{
@@ -65,6 +66,56 @@ main{
     display: flex;
     justify-self: center;
     width: 1500px;
-    margin-top:20px;
+    margin-top:20px; 
+    flex-direction: column;
+}
+.section{
+    border: solid black 5px;
+    display: flex;
+    justify-self: center;
+    width: 1500px;
+    margin-top:20px; 
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-self: center;
+    width: 1500px;
+    margin-top:20px; 
+    background-color: rgb(207, 207, 207);
+    justify-content: center;
+}
+.Discounted_Products{
+    left: 150px;
+    top: 40px;
+    position:relative;
+}
+.New_Arrivals{
+    left: 150px;
+    top: 40px;
+    position:relative;
+}
+.line1{
+    display:flex;
+    height: 1px;
+    width: 80%;
+    background-color: grey;
+    align-self: center;
+}
+.line2{
+    display:flex;
+    height: 1px;
+    width: 80%;
+    background-color: grey;
+    align-self: center;
+}
+.pirma_bilde{
+    width: 100px;
+    height: 150px;
+}
+.bildes_line1{
+    display:flex;
+    justify-content: space-evenly;
     
 }
+
