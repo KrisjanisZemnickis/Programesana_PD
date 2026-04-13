@@ -129,8 +129,6 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap:-50px;
-    margin-top:0;
 }
 .pirma_bilde{
     width: 100px;
@@ -150,4 +148,28 @@ main{
     font-size:25px;
     margin-top:0;
 }
-
+.store-items{
+    display:flex;
+    justify-content: space-evenly;
+    width: 1500px;
+    height: 3000px;
+    border: solid black 5px;
+    justify-self: center;
+}
+.filter{
+    border: solid black 2px
+}
+.button:hover{
+    background-color: rgb(182, 163, 163);
+    width: 105px;
+    height:35px;
+    transition: 500ms;
+}
+.button1:hover{
+    background-color: rgb(211, 199, 199);
+    transition: 500ms;
+}
+.istacena{
+    position: relative;
+    top: -20px
+}
